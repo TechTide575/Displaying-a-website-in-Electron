@@ -19,9 +19,10 @@ Node.jsの環境はnmpでfmmで
 [[Git]((https://git-scm.com/))]
 ここからインストーラーをダウンロードして実行してウイザードのとおり進めてください
 ***
+まず`npm init` `npm install electron`の順に実行
+***
 次に
-このレジスポリをダウンロードします
-code.zipをダウンロードします
+このレジスポリのmain.jsをダウンロードしてpackage.jsonとpackage-lock.jsonは、中身をこのレジスポリのやつに書き換えて
 コマンドプロンプトは起動しといて
 
 
