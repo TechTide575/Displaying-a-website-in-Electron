@@ -1,0 +1,33 @@
+{
+  "name": "Gmail",
+  "version": "1.0.0",
+  "description": "A simple Electron app to display a URL",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^24.0.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2"
+  },
+  "build": {
+    "appId": "com.example.myapp",
+    "productName": "MyElectronApp",
+    "win": {
+      "icon": "ico/icon.ico",
+      "target": "nsis"
+    },
+    "mac": {
+      "icon": "ico/icon.icns",
+      "target": "dmg"
+    },
+    "linux": {
+      "icon": "ico/icon.png",
+      "target": "AppImage"
+    }
+  }
+}
