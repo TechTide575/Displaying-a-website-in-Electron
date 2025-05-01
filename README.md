@@ -62,7 +62,7 @@ Execute the following command
 If it displays
 `v~~~~`, it is installed
 Installation URL
-[[Node.js](https://nodejs.org/download)]
+[[Node.js]((https://nodejs.org/en/download))]
 Node.js environment is nmp and fmm
 ***
 Next, install git
