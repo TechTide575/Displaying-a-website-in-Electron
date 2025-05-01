@@ -1,1 +1,8 @@
-# Displaying-a-website-in-Electron
+# Electronでのwebサイト表示
+webサイトを表示するコードのテンプレートです
+##下準備
+まずNode.jsがインストールされているか確認して下さい
+以下のコマンドを実行
+`node -v `
+
+#使い方
