@@ -57,37 +57,40 @@ npx electron-packager . MyAppName --platform=win32 --arch=x64 --icon=icon.ico --
 ***
 以上日本語版
 ***
-# Displaying a website in Electron
+# Displaying a website with Electron
 This is a code template for displaying a website
-
+Below is the English version
 # Preparation
+>It's useful to download and install vscode
+>You can also use commands with vscode
+***
+
 First, make sure Node.js is installed
 Execute the following command
 `node -v `
-If it displays
-`v~~~~`, it is installed
+If it displays `v~~~~`, it is installed
 Installation URL
-[[Node.js]((https://nodejs.org/en/download))]
+[[Node.js](https://nodejs.org/ja/download)]
 Node.js environment is nmp and fmm
 ***
 Next, install git
 [[Git]((https://git-scm.com/))]
-Download the installer from here, run it, and follow the wizard
+Download the installer from here, run it, and proceed as instructed by the wizard
 ***
-Next
-`git clone https://github.com/TechTide575/Displaying-a-website-in-Electron`
-Right-click on the folder you want to create and click "Run with command prompt" Then execute the following code
-You can leave the command prompt running
+First, run `npm init` and `npm install electron` in that order
+***
+Next, download main.js from this regispoli and rewrite the contents of package.json and package-lock.json to the ones from this regispoli
+Start the command prompt
 
 # Usage
 main.js
 ***
 `win.loadURL('https://example.com');`
-Specify the URL of the webpage to display in the app.
-If you want to create an offline app, you can change it to loadFile('index.html') etc.
+Specify the URL of the web page to display in the app.
+If you want to create an offline app, you can change it to loadFile('index.html') or something similar.
 ***
 The app icon is in the ico folder
-The same image in png ico icns format, one each, with the names `Icon.png` `icon.ico` `icon.icns`
+The same image in png ico icns format, one each, named `Icon.png` `icon.ico` `icon.icns`
 Convert the image based on png
 ***
 package.json
@@ -103,6 +106,10 @@ To change the product name, change the "
 ***
 # How to build
 ***
+Run this
+`npm install electron-packager --save-dev
+npx electron-packager . MyAppName --platform=win32 --arch=x64 --icon=icon.ico --overwrite
+`
 Run this
 `npm install electron-packager --save-dev
 npx electron-packager . MyAppName --platform=win32 --arch=x64 --icon=icon.ico --overwrite
