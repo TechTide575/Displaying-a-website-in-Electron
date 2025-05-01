@@ -1,4 +1,4 @@
-# Electronでのwebサイト表示
+#Electronでのwebサイト表示
 webサイトを表示するコードのテンプレートです
 
 #下準備
