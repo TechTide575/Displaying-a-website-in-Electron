@@ -2,6 +2,8 @@
 webサイトを表示するコードのテンプレートです
 Below is the English version
 # 下準備
+>vscodeをダウンロード＆インストールしとくと便利
+>コマンドもvscodeでも使えるよ
 まずNode.jsがインストールされているか確認して下さい
 以下のコマンドを実行
 `node -v `
